@@ -9,7 +9,7 @@ There are two types of hashes involved in your def.dev certificate. The *SHA256*
 
 ### Steps to locate your hash:
 * In short:
-  * Guess the folder matching the YYMM of the course you attended.
+  * Guess the folder matching the YYMM of the course you attended. Also indicated on the certificate above the signature.
   * Locate your SHA fingerprint file by the trailing 4 chars which will match the voucher on your PDF certificate.
 * There is a unique voucher code on your certificate. Like on the below illustration it's 'b90ix-m4gk':
   * Actually the left part of the voucher is the code of a learning event, which is an alias to the human-readable identifier of that event, like '2305a.ios-red'. The latter identifier is used in naming the folders holding the actual fingerprints of the certificates issued at/for the particular event. The names of SHA fingerprint files hold the voucher type identifier of a course.
