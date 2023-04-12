@@ -2,7 +2,7 @@
 
 This repo holds SHA256 digests of PDF certificates issued in the (printable) format, like the one illustrated below.  
 (Validation of the 'looney tunes' styled online badges does not belong here.)  
-Learners' PII is not present in this public repo, and actually we don't store it in long term. Instead, we use voucher codes to identify our alumni members in case of certificate re-issuance or if validation was requested by an employer or any professional body.
+Learners' PII is not present in this public repo (and actually we don't store such data internally in the long term either). Instead, we use voucher codes to identify our alumni members in case of certificate re-issuance or if validation was requested by an employer or any professional body.
 
 ### def.dev certificate hashes
 There are two types of hashes involved in your def.dev certificate. The *SHA256* hash verifies the authenticity of your PDF certificate -- call it the fingerprint or digest. This repo publicly stores these SHA fingerprints in folders representing a particular learning event. The *FNV* hash (part of the voucher) is derived from your (work) email address (in lowercase) which was known to def.dev when you attended a course, the first 4 chars of that hash identifies your personal attendance or your exam -- and so the latter hash serves as a locator of your fingerprint file w/o your name being involved.
