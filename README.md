@@ -15,7 +15,7 @@ There are two types of hashes involved in your def.dev certificate. The *SHA256*
   * Actually the left part of the voucher is the code of a learning event, which is an alias to the human-readable identifier of that event, like '2305a.ios-red'. The latter identifier is used in naming the folders holding the actual fingerprints of the certificates issued at/for the particular event. The names of SHA fingerprint files hold the voucher type identifier of a course.
   * While the right-side part of the voucher (m4gk) is derived from your email address. Let's call it the **FNV hash**.
     * Please recall the work email address you used while attending the course.
-    * Pre-2022 we took 4 digits from the MD4 hash of your email, nowadays we use the 4 leading digits of the 32-bit FNV-1a hash of your email.
+    * We use the 4 leading digits of the 32-bit FNV-1a hash of your email id. (Pre-2022 it was 4 digits from the MD4 hash of an email address.)
     * In some cases you may have been issued two FNV hashes if two email addresses were used in the company, and it was reasonable to assume that years later you may recall only one of those. 
 * Grepping this repo for your (very likely) unique 4 chars code (FNV hash) is the shortcut for looking up the fingerprint of your PDF.
 * OR: 
